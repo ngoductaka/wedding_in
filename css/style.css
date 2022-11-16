@@ -418,11 +418,20 @@ h1, h2, h3, h4, h5, h6, figure {
   justify-content: space-around;
   align-items: center;
 }
+.img-qr {
+  height: 200px;
+  width: 120px;
+}
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
   #fh5co-event .event-wrap {
     margin-bottom: 10px;
   }
+
+.img-qr {
+  height: 24vh;
+  width: 13vh;
+}
 }
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
@@ -1079,7 +1088,7 @@ form label {
   margin-top: 70px;
 }
 .invite {
-  font-family: "dancing_scriptregular", cursive;
+  /* font-family: "dancing_scriptregular", cursive; */
   clear: both;
   display: flex;
   flex-direction: column;
@@ -1133,7 +1142,9 @@ form label {
 }
 .couple-half .desc-groom {
   padding-right: 180px;
-  text-align: center;
+  text-align: right;
+
+  font-family: "Sacramento", Arial, serif;
 }
 .couple-half .desc-bride {
   padding-left: 180px;
