@@ -89,7 +89,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<div class="simply-countdown simply-countdown-one"></div>
+							<div class="simply-countdown simply-countdown-one" id="simply-countdown-losange"></div>
 						</div>
 					</div>
 				</div>
@@ -614,21 +614,22 @@
 	// console.log(d, dd)
 
     // default example
-    simplyCountdown('.simply-countdown-one', {
+    // simplyCountdown('.simply-countdown-one', {
+    //     year: 2022,
+    //     month: 12,
+    //     day: 1,
+	// 	hours: 11,
+    //     enableUtc: true,
+    // });
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
         year: 2022,
         month: 12,
         day: 1,
 		hours: 11,
-        enableUtc: true,
+        enableUtc: true
     });
-
-    //jQuery example
-    // $('#simply-countdown-losange').simplyCountdown({
-    //     year: d.getFullYear(),
-    //     month: d.getMonth() + 1,
-    //     day: d.getDate(),
-    //     enableUtc: true
-    // });
 </script>
 
 	</body>
